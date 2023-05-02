@@ -7,16 +7,14 @@ for(let i=0;i<arr.length;i++){
 	sum+=parseInt(arr[i].innerText);
 }
 
-console.log(sum);
+//console.log(sum);
 let total = document.createElement('tr');
 let col1 = document.createElement('td');
-//let col2 = document.createElement('td');
 
 total.setAttribute('data-ns-test','grandTotal');
+col1.setAttribute('colspan','2');
 
-col1.innerText = 'Total'+sum;
-//col2.innerText = sum;
+col1.innerText = `Total ${sum}`;
 total.appendChild(col1);
-//total.appendChild(col2);
 
 tbody.appendChild(total);
