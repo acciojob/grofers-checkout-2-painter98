@@ -10,13 +10,13 @@ for(let i=0;i<arr.length;i++){
 console.log(sum);
 let total = document.createElement('tr');
 let col1 = document.createElement('td');
-let col2 = document.createElement('td');
+//let col2 = document.createElement('td');
 
 total.setAttribute('data-ns-test','grandTotal');
 
-col1.innerText = 'Total';
-col2.innerText = sum;
+col1.innerText = 'Total'+sum;
+//col2.innerText = sum;
 total.appendChild(col1);
-total.appendChild(col2);
+//total.appendChild(col2);
 
 tbody.appendChild(total);
