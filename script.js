@@ -14,7 +14,7 @@ let col1 = document.createElement('td');
 total.setAttribute('data-ns-test','grandTotal');
 col1.setAttribute('colspan','2');
 
-col1.innerText = `Total ${sum}`;
+col1.innerText = sum;
 total.appendChild(col1);
 
 tbody.appendChild(total);
