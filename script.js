@@ -12,7 +12,7 @@ let total = document.createElement('tr');
 let col1 = document.createElement('td');
 let col2 = document.createElement('td');
 
-total.setAttribute('data-ns-test','grandTotal')
+total.setAttribute('data-ns-test','grandTotal');
 
 col1.innerText = 'Total';
 col2.innerText = sum;
